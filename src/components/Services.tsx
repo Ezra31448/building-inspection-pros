@@ -6,23 +6,23 @@ export const Services = () => {
   const services = [
     {
       icon: FileCheck,
-      title: "R.1 Certificate Inspection",
-      description: "Comprehensive building inspection for R.1 certification compliance.",
+      title: "ตรวจสอบเพื่อใบรับรอง R.1",
+      description: "ตรวจสอบอาคารอย่างครบถ้วนเพื่อการรับรองมาตรฐาน R.1",
     },
     {
       icon: Shield,
-      title: "Structural Assessment",
-      description: "Detailed evaluation of building structural integrity and safety.",
+      title: "ประเมินโครงสร้าง",
+      description: "ตรวจสอบความมั่นคงและความปลอดภัยของโครงสร้างอาคารอย่างละเอียด",
     },
     {
       icon: Zap,
-      title: "Electrical Systems",
-      description: "Complete inspection of electrical systems and safety measures.",
+      title: "ระบบไฟฟ้า",
+      description: "ตรวจสอบระบบไฟฟ้าและมาตรการความปลอดภัยอย่างครบถ้วน",
     },
     {
       icon: AlertTriangle,
-      title: "Safety Compliance",
-      description: "Verification of building safety standards and regulations.",
+      title: "การปฏิบัติตามมาตรฐานความปลอดภัย",
+      description: "ตรวจสอบมาตรฐานและข้อกำหนดด้านความปลอดภัยของอาคาร",
     },
   ];
 
@@ -37,11 +37,11 @@ export const Services = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Our Inspection Services
+            บริการตรวจสอบอาคารของเรา
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We provide comprehensive building inspection services to ensure your property meets all
-            safety and compliance requirements.
+            เราให้บริการตรวจสอบอาคารอย่างครบวงจร เพื่อให้มั่นใจว่าอาคารของคุณ
+            ตรงตามข้อกำหนดด้านความปลอดภัยทั้งหมด
           </p>
         </motion.div>
 

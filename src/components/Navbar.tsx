@@ -35,16 +35,16 @@ export const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-primary hover:text-accent transition-colors">
-              Services
+              บริการ
             </a>
             <a href="#process" className="text-primary hover:text-accent transition-colors">
-              Process
+              ขั้นตอน
             </a>
             <a href="#about" className="text-primary hover:text-accent transition-colors">
-              About
+              เกี่ยวกับเรา
             </a>
             <Button variant="default" className="bg-accent hover:bg-accent/90">
-              Schedule Inspection
+              นัดตรวจสอบอาคาร
             </Button>
           </div>
 
@@ -66,28 +66,28 @@ export const Navbar = () => {
                 className="text-primary hover:text-accent transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Services
+                บริการ
               </a>
               <a
                 href="#process"
                 className="text-primary hover:text-accent transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Process
+                ขั้นตอน
               </a>
               <a
                 href="#about"
                 className="text-primary hover:text-accent transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                About
+                เกี่ยวกับเรา
               </a>
               <Button
                 variant="default"
                 className="bg-accent hover:bg-accent/90 w-full"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Schedule Inspection
+                นัดตรวจสอบอาคาร
               </Button>
             </div>
           </div>

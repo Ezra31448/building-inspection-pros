@@ -15,21 +15,21 @@ export const Hero = () => {
             className="text-center md:text-left"
           >
             <div className="inline-block bg-accent/10 text-accent rounded-full px-4 py-2 mb-6">
-              Certified Building Inspections
+              บริการตรวจสอบอาคารที่ได้รับการรับรอง
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6">
-              Professional Building Inspections & R.1 Certification
+              บริการตรวจสอบอาคารมืออาชีพ และใบรับรอง R.1
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Ensure your building meets all safety and compliance standards with our comprehensive
-              inspection services. Get your R.1 Certificate with confidence.
+              มั่นใจได้ว่าอาคารของคุณตรงตามมาตรฐานความปลอดภัยและข้อกำหนดทั้งหมด 
+              รับใบรับรอง R.1 ด้วยความมั่นใจ
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button size="lg" className="bg-accent hover:bg-accent/90">
-                Schedule Inspection
+                นัดตรวจสอบอาคาร
               </Button>
               <Button size="lg" variant="outline">
-                Learn More
+                ดูรายละเอียดเพิ่มเติม
               </Button>
             </div>
           </motion.div>
@@ -44,7 +44,7 @@ export const Hero = () => {
               <div className="absolute inset-0 bg-accent/5 rounded-2xl transform rotate-3"></div>
               <img
                 src="https://images.unsplash.com/photo-1487958449943-2429e8be8625"
-                alt="Building Inspection"
+                alt="การตรวจสอบอาคาร"
                 className="rounded-2xl shadow-lg relative z-10"
               />
             </div>
@@ -60,18 +60,18 @@ export const Hero = () => {
           {[
             {
               icon: Shield,
-              title: "Certified Experts",
-              description: "Licensed and experienced building inspectors",
+              title: "ผู้เชี่ยวชาญที่ได้รับการรับรอง",
+              description: "ผู้ตรวจสอบอาคารที่มีใบอนุญาตและประสบการณ์",
             },
             {
               icon: Building2,
-              title: "Comprehensive Service",
-              description: "Thorough inspection of all building systems",
+              title: "บริการครบวงจร",
+              description: "ตรวจสอบระบบอาคารอย่างละเอียดครบถ้วน",
             },
             {
               icon: CheckCircle,
-              title: "Fast Certification",
-              description: "Quick turnaround for R.1 certificates",
+              title: "ใบรับรองรวดเร็ว",
+              description: "ออกใบรับรอง R.1 ได้อย่างรวดเร็ว",
             },
           ].map((feature, index) => (
             <div
