@@ -1,15 +1,21 @@
 
 import { Navbar } from "../components/Navbar";
 import { Hero } from "../components/Hero";
-import { Services } from "../components/Services";
-import { motion } from "framer-motion";
+import { Expertise } from "../components/Expertise";
+import { Testimonials } from "../components/Testimonials";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navbar />
       <Hero />
-      <Services />
+      <Expertise />
+      <Testimonials />
+      <footer className="bg-purple-700 text-white py-4">
+        <div className="container mx-auto px-4 text-center">
+          <p>Your Trusted Partner in Building Inspections</p>
+        </div>
+      </footer>
     </div>
   );
 };
